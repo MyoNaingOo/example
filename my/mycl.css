@@ -1,0 +1,125 @@
+:root{
+	--dark: #020515;
+	--light: #e5e5e5;
+	--darks: rgba(0,0,0,0.3);
+	--lights: rgba(255,255,255,.8); }
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+.project{
+	position:relative;
+}
+.proj-img{
+	
+	width:100%;
+	height:250px;
+	position:absolute;
+}
+.out-none{
+	outline: none;
+}
+
+.w-90{
+	width: 90%;
+}
+.w-95{
+	width: 95%;
+}
+
+.w-85{
+	width: 85%;
+}
+
+.mrs{
+	margin-right:0px;
+	background:#000;
+}
+
+.mt-2{
+	margin-top: 180px !important;
+}
+.progress{
+	height: 6px;
+}
+
+.bg-pb{
+	background: linear-gradient(87deg,#0ef,#1d3fff);
+}
+
+
+.instagram{
+	border-radius: 5px;
+	background: linear-gradient(85deg,#f21,#ff0);
+}
+.text-blue{
+	color:#15c;
+}
+
+
+.skill{
+	position: relative;
+	z-index: 1;
+
+}
+.skill>label{
+		color: #fff !important;
+	}
+
+
+.bg-skill{
+	width: 100%;
+	height: 350px;
+	position: absolute;
+	z-index:0;
+
+	
+}
+@media only screen and (max-width: 500px){
+	.logoimg
+	    width: 150px
+	    height: 135px
+	
+}
+
+@media only screen and (max-width: 400px){
+	.teach-p{
+		font-size: 10px;
+	}
+	.logoimg{
+	width: 180px;
+	height: 150px;}
+}
+.reveal{
+	position: relative;
+	transform: translateX(150px);
+	opacity: 0;
+	transition: all 2s ease;
+}
+
+.reveal.active{
+	transform: translateX(0px);
+	opacity: 1;
+}
+
+.mybg-ex{
+	background:rgba(255,255,255,.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
