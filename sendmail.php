@@ -47,7 +47,7 @@ $mass="Form ".$email."<br>Massage:<br>".$mas;
 echo $mass;
 
 sendmail($subject,$mass);
-header("location: ../index.php");
+header("location: ../index.html");
 //error_reporting(0);
 
 
